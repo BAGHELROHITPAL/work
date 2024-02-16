@@ -6,3 +6,37 @@
     box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
 }
+.callback {
+    width: 100%;
+    float: left;
+    background-image: url(../image/banner-sample2.webp);
+    padding: 80px;
+    background-size: cover;
+}
+.callback-content {
+    max-width: 630px;
+}
+.callback-content h4 {
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+    font-weight: 500;
+}
+.callback-content span {
+    color: #e35f21;
+    font-weight: 500;
+}
+.callback-content p {
+    color: white;
+    line-height: 28px;
+    margin-top: 25px;
+}
+.callback-content a {
+    display: inline-block;
+    padding: 10px 30px;
+    background: white;
+    border-radius: 5px;
+    color: #e35f21;
+    font-size: 18px;
+    margin-top: 40px;
+}
