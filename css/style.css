@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+.contenar{
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+.heder {
+    width: 100%;
+    float: left;
+    /* border-bottom: 1px solid; */
+    background-color: white;
+}
+.heder-left {
+    width: auto;
+    float: left;
+}
+.heder-left a img {
+    width: 100%;
+    max-width: 166px;
+    float: left;
+    padding-top: 10px;
+}
+.heder-senter-oll {
+    width: 60%;
+    float: left;
+    padding-left: 140px;
+    padding-top: 19px;
+}
+.heder-senter {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    max-width: 500px !important;
+    position: relative;
+}
+.heder-senter input[type="text"] {
+    border: none;
+    /* padding: 10px; */
+    padding-right: 270px;
+    padding-top: 11px;
+}
+.heder-senter img {
+    float: left;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.heder-senter input[type="text"] {
+    outline: none;
+    /* box-shadow: 10px 0 0 0 #ddd; */
+}
+.heder-right-oll {
+    width: auto;
+    float: right;
+}
+.heder-right {
+    width: auto;
+    float: right;
+}
+.heder-right ul li {
+    display: inline-block;
+    padding-right: 45px;
+}
+.heder-right ul li a img {
+    max-width: 40px;
+    padding-top: 10px;
+}
+.heder-right ul li span {
+    width: auto;
+    float: right;
+    padding-top: 20px;
+}
+.heder-1 {
+    background: #f4f4f4;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.heder-1-oll {
+    width: 100%;
+    float: left;
+}
+.heder-1-oll ul li {
+    display: inline-block;
+    width: 194px;
+    height: 50px;
+    padding: 15px 10px;
+    position: relative;
+    transition: 1s;
+}
+.heder-1-oll ul li a{
+    color: #212529;
+    font-size: 17px;
+    /* display: inline-block;
+    width: 100%; */
+   
+}
+
+ 
+.heder-1-oll ul li:hover {
+    font-weight: 600;
+    background: #eaeaea;
+}
+.slide-oll {
+    width: 100%;
+    float: left;
+}
+.slide-1 {
+    width: 100%;
+    float: left;
+}
+
+
+img.d-block.w-100 {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.heder-1-oll ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+ul.dropdown {
+    position: absolute;
+    background: white;
+    border: none;
+    box-shadow: 0px 5px 6px 0px #ddd;
+    visibility: hidden;
+    opacity: 0;
+    top: 50px;
+    width: 1140px;
+    /* height: 100px; */
+    border-radius: 10px;
+    left: 20px;
+}
+ul.dropdown li {
+    display: block;
+    padding: 10px 30px;
+}
+ul.dropdown a {
+    color: black;
+    transition: 0.6s;
+}
+.heder-1-oll ul li:hover .dropdown-1 {
+    opacity: 1;
+    visibility: visible;
+    top: 50px;
+}
+ul.dropdown-1 {
+    position: absolute;
+    background: white;
+    border: none;
+    box-shadow: 0px 5px 6px 0px #ddd;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    width: 820px;
+    /* height: 100px; */
+    border-radius: 10px;
+    left: 354px;
+    z-index: 9;
+}
+.living-left-oll li a{
+    position: relative;
+}
+.living-oll {
+    width: 100%;
+    float: left;
+    border-top: 2px solid #64370b;
+    border-top: 5px solid #41aab1;
+}
+.living-left-oll {
+    width: 31%;
+    float: left;
+    background: white;
+}
+ul.dropdown li {
+    border-bottom: 1px solid #ddd;
+    border-right: 5px solid #ddd;
+    float: left;
+    width: 100%;
+}
+.living-right {
+    width: 69%;
+    float: left;
+}
+.living-right-1 {
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+}
+.living-right-1 a {
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+.living-right-1 a img {
+    max-width: 55px;
+}
+.living-2{
+    width: 100%;
+    float: left;
+}
+.living-right-1 a span {
+    float: right;
+    width: auto;
+    padding-right: 35px;
+    padding-top: 3px;
+    font-size: 15px;
+}
+.living-1-oll{
+    width: 25%;
+    float: left;
+}
+span.r1 {
+    padding-right: 93px !important;
+    float: right;
+    width: 100%;
+}
+span.r2 {
+    padding-right: 50px !important;
+    padding-top: 21px !important;
+}
+span.r3 {
+    padding-right: 50px !important;
+    padding-top: 20px !important;
+}
+span.r5 {
+    padding-right: 53px !important;
+    padding-top: 5px !important;
+}
+span.r6 {
+    padding-right: 38px !important;
+    padding-top: 14px !important;
+}
+span.r7 {
+    padding-right: 83px !important;
+    padding-top: 10px !important;
+}
