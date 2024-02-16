@@ -20,7 +20,7 @@
     font-size: 30px;
     color: white;
     line-height: 50px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .callback-content span {
     color: #e35f21;
@@ -40,3 +40,52 @@
     font-size: 18px;
     margin-top: 40px;
 }
+.memories {
+    float: left;
+    width: 100%;
+    padding: 60px 0;
+}
+.memories-btn {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.memories-btn h2 {
+    font-size: 25px;
+    color: #032d60;
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+    /* position: relative; */
+}
+
+.memories-btn h2 span {
+    color: #e35f21;
+    font-weight: 500;
+    padding: 0 !important;
+    display: inline-block;
+}
+    .memories-btn h2:before {
+        position: absolute;
+        content: "";
+        right: 1px;
+        bottom: -10px;
+        width: 50%;
+        height: 3px;
+        background: #032d60;
+    }
+    .memories-btn   h2:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: -10px;
+        width: 50%;
+        height: 3px;
+        background: #e35f21;
+    }
+
+    .memories-btn  span {
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+    }
