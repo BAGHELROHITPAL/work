@@ -14,7 +14,7 @@
     position: sticky;
     top: -1px;
     left: 0;
-    z-index: 999;
+    z-index: 999;   
     background-color: white;
 }
 .header-section-menu {
