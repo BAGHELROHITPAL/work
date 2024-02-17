@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
 }
+
 .callback {
     width: 100%;
     float: left;
@@ -13,24 +14,29 @@
     padding: 80px;
     background-size: cover;
 }
+
 .callback-content {
     max-width: 630px;
 }
+
 .callback-content h4 {
     font-size: 30px;
     color: white;
     line-height: 50px;
     font-weight: 600;
 }
+
 .callback-content span {
     color: #e35f21;
     font-weight: 500;
 }
+
 .callback-content p {
     color: white;
     line-height: 28px;
     margin-top: 25px;
 }
+
 .callback-content a {
     display: inline-block;
     padding: 10px 30px;
@@ -40,16 +46,19 @@
     font-size: 18px;
     margin-top: 40px;
 }
+
 .memories {
     float: left;
     width: 100%;
     padding: 60px 0;
 }
+
 .memories-btn {
     width: 100%;
     float: left;
     text-align: center;
 }
+
 .memories-btn h2 {
     font-size: 25px;
     color: #032d60;
@@ -65,27 +74,72 @@
     padding: 0 !important;
     display: inline-block;
 }
-    .memories-btn h2:before {
-        position: absolute;
-        content: "";
-        right: 1px;
-        bottom: -10px;
-        width: 50%;
-        height: 3px;
-        background: #032d60;
-    }
-    .memories-btn   h2:after {
-        position: absolute;
-        content: "";
-        left: 0;
-        bottom: -10px;
-        width: 50%;
-        height: 3px;
-        background: #e35f21;
-    }
 
-    .memories-btn  span {
-        padding: 50px 0;
-        display: flex;
-        justify-content: center;
-    }
+.memories-btn h2:before {
+    position: absolute;
+    content: "";
+    right: 1px;
+    bottom: -10px;
+    width: 50%;
+    height: 3px;
+    background: #032d60;
+}
+
+.memories-btn h2:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    width: 50%;
+    height: 3px;
+    background: #e35f21;
+}
+
+.memories-btn span {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group .btn-danger {
+    color: #fff;
+    background-color: #e35f21;
+    border-color: #e35f21;
+    width: 220px;
+    border-radius: 100px;
+    font-size: 15px;
+    float: left;
+    height: 45px;
+
+
+}
+.btn-group{
+    padding-left: 30px;
+
+}
+
+.btn-group .btn-danger:hover {
+    background-color: #e35f21;
+    border-color: #e35f21;
+}
+
+.btn-group .btn-success {
+    color: #032d60;
+    background: none;
+    border-color: #032d60;
+    width: 220px;
+    border-radius: 100px;
+    font-size: 15px;
+    float: left;
+}
+
+.btn-group .btn-success:hover {
+    background: none !important;
+    color: #032d60 !important;
+}
+
+.btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0100px !important;
+    border-bottom-right-radius: 0100px !important;
+}
