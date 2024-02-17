@@ -26,6 +26,7 @@
     width: auto;
     float: left;
 }
+    
 .logo  a img{
     width: 100%;
     max-width: 180px;
@@ -48,4 +49,28 @@
 }
 .main-menu ul li a:hover{
     color:#e35f21;
+}
+
+
+
+.banner {
+    width: 100%;
+    float: left;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 45px;
+    color: #032d60;
+    line-height: 80px;
+    font-weight: 500;
+    max-width: 580px;
+}
+
+.banner h4 {
+    font-weight: 400;
+    margin: 10px 0 26px 0;
 }
