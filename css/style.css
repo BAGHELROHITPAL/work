@@ -113,7 +113,8 @@
 
 
 }
-.btn-group{
+
+.btn-group {
     padding-left: 30px;
 
 }
@@ -142,4 +143,30 @@
 .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
     border-top-right-radius: 0100px !important;
     border-bottom-right-radius: 0100px !important;
+}
+
+
+.banner {
+    width: 100%;
+    float: left;
+
+   
+
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 45px;
+    color: #032d60;
+    line-height: 80px;
+    font-weight: 500;
+    max-width: 580px;
+}
+
+.banner h4 {
+    font-weight: 400;
+    margin: 10px 0 26px 0;
 }
